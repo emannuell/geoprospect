@@ -1,0 +1,127 @@
+[28-Feb-2016 14:38:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 5
+[28-Feb-2016 14:39:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 5
+[28-Feb-2016 14:40:32 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 11
+[28-Feb-2016 14:56:12 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 11
+[28-Feb-2016 14:56:24 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 11
+[28-Feb-2016 14:59:58 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:00:29 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:09:32 America/Sao_Paulo] PHP Fatal error:  Can't use function return value in write context in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 14
+[28-Feb-2016 15:10:40 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:10:40 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 14
+[28-Feb-2016 15:11:19 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:11:19 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 14
+[28-Feb-2016 15:12:41 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:12:47 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:12:54 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:14:03 America/Sao_Paulo] PHP Fatal error:  Can't use function return value in write context in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:15:47 America/Sao_Paulo] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:38:48 America/Sao_Paulo] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:42:20 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:47:51 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[28-Feb-2016 15:48:16 America/Sao_Paulo] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 13
+[29-Feb-2016 13:26:24 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 13:33:22 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 13:34:59 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 14:03:41 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 14:09:06 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 14:10:53 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 14:14:00 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 14:17:02 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 14:19:35 America/Sao_Paulo] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/emannuel/public_html/geoprospect.com.br/_user/logout.php on line 2
+[29-Feb-2016 21:47:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 20
+[29-Feb-2016 22:20:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 10
+[29-Feb-2016 22:20:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 10
+[29-Feb-2016 22:21:18 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 10
+[29-Feb-2016 22:21:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 10
+[29-Feb-2016 22:22:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 10
+[29-Feb-2016 23:05:37 America/Sao_Paulo] PHP Warning:  include(/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:05:37 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:05:40 America/Sao_Paulo] PHP Warning:  include(/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:05:40 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:05:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function fazlogin() in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 15
+[29-Feb-2016 23:06:07 America/Sao_Paulo] PHP Warning:  include(/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:06:07 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:06:07 America/Sao_Paulo] PHP Fatal error:  Call to undefined function fazlogin() in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 15
+[29-Feb-2016 23:06:42 America/Sao_Paulo] PHP Warning:  include(/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:06:42 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:06:42 America/Sao_Paulo] PHP Fatal error:  Call to undefined function fazlogin() in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 15
+[29-Feb-2016 23:07:09 America/Sao_Paulo] PHP Warning:  include(/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:07:09 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:07:09 America/Sao_Paulo] PHP Fatal error:  Call to undefined function fazlogin() in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 15
+[29-Feb-2016 23:07:20 America/Sao_Paulo] PHP Warning:  include(/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:07:20 America/Sao_Paulo] PHP Warning:  include(): Failed opening '/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 3
+[29-Feb-2016 23:07:20 America/Sao_Paulo] PHP Fatal error:  Call to undefined function fazlogin() in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 15
+[29-Feb-2016 23:09:45 America/Sao_Paulo] PHP Warning:  include(_user/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 2
+[29-Feb-2016 23:09:45 America/Sao_Paulo] PHP Warning:  include(_user/panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 2
+[29-Feb-2016 23:09:45 America/Sao_Paulo] PHP Warning:  include(): Failed opening '_user/panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 2
+[29-Feb-2016 23:09:45 America/Sao_Paulo] PHP Fatal error:  Call to undefined function fazlogin() in /home/emannuel/public_html/geoprospect.com.br/_user/login.php on line 15
+[29-Feb-2016 23:13:41 America/Sao_Paulo] PHP Warning:  include( panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/index.php on line 25
+[29-Feb-2016 23:13:41 America/Sao_Paulo] PHP Warning:  include( panel/funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/index.php on line 25
+[29-Feb-2016 23:13:41 America/Sao_Paulo] PHP Warning:  include(): Failed opening ' panel/funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/index.php on line 25
+[29-Feb-2016 23:13:41 America/Sao_Paulo] PHP Fatal error:  Call to undefined function usuarioLogado() in /home/emannuel/public_html/geoprospect.com.br/_user/index.php on line 33
+[01-Mar-2016 02:43:00 America/Sao_Paulo] PHP Warning:  include(funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/pesquisa.php on line 2
+[01-Mar-2016 02:43:00 America/Sao_Paulo] PHP Warning:  include(funcao_usuario.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/pesquisa.php on line 2
+[01-Mar-2016 02:43:00 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'funcao_usuario.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/pesquisa.php on line 2
+[01-Mar-2016 02:43:00 America/Sao_Paulo] PHP Fatal error:  Call to undefined function usuarioLogado() in /home/emannuel/public_html/geoprospect.com.br/_user/pesquisa.php on line 5
+[02-Mar-2016 18:06:10 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 18:14:52 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 18:28:30 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 18:28:32 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 18:29:34 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 18:29:51 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:00:23 America/Sao_Paulo] PHP Warning:  include(../../conect.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:00:23 America/Sao_Paulo] PHP Warning:  include(../../conect.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:00:23 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../conect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:00:23 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:01:36 America/Sao_Paulo] PHP Warning:  include(../../conect.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:01:36 America/Sao_Paulo] PHP Warning:  include(../../conect.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:01:36 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../conect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:01:36 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:01:40 America/Sao_Paulo] PHP Warning:  include(../../conect.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:01:40 America/Sao_Paulo] PHP Warning:  include(../../conect.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:01:40 America/Sao_Paulo] PHP Warning:  include(): Failed opening '../../conect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 3
+[02-Mar-2016 23:01:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:02:24 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:07:43 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:07:45 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 8
+[02-Mar-2016 23:29:36 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:30:48 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:09 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:12 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:20 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:52 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:55 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:55 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:32:55 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/_user/panel/conect.php on line 4
+[02-Mar-2016 23:33:28 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:33:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:33:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:33:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:33:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:33:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:33:29 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:37:45 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:38:40 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:39:51 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:40:59 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:43:11 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:43:21 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Database in /home/emannuel/public_html/geoprospect.com.br/conect.php on line 4
+[02-Mar-2016 23:46:46 America/Sao_Paulo] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 15
+[02-Mar-2016 23:49:53 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 11
+[02-Mar-2016 23:50:21 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 11
+[02-Mar-2016 23:50:23 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 11
+[02-Mar-2016 23:56:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 9
+[02-Mar-2016 23:57:12 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 9
+[02-Mar-2016 23:57:14 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 9
+[02-Mar-2016 23:57:16 America/Sao_Paulo] PHP Fatal error:  Call to undefined function recuperarSenha() in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 9
+[03-Mar-2016 00:27:02 America/Sao_Paulo] PHP Warning:  Missing argument 2 for enviaEmail(), called in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 10 and defined in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 45
+[03-Mar-2016 00:27:02 America/Sao_Paulo] PHP Warning:  Missing argument 3 for enviaEmail(), called in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 10 and defined in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 45
+[03-Mar-2016 00:50:19 America/Sao_Paulo] PHP Fatal error:  Class 'SMTP' not found in /home/emannuel/public_html/geoprospect.com.br/_user/phpmailer/class.phpmailer.php on line 1439
+[03-Mar-2016 00:56:07 America/Sao_Paulo] PHP Fatal error:  Class 'SMTP' not found in /home/emannuel/public_html/geoprospect.com.br/_user/phpmailer/class.phpmailer.php on line 1439
+[03-Mar-2016 00:56:10 America/Sao_Paulo] PHP Fatal error:  Class 'SMTP' not found in /home/emannuel/public_html/geoprospect.com.br/_user/phpmailer/class.phpmailer.php on line 1439
+[03-Mar-2016 00:57:05 America/Sao_Paulo] PHP Warning:  require_once(../phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 47
+[03-Mar-2016 00:57:05 America/Sao_Paulo] PHP Fatal error:  require_once(): Failed opening required '../phpmailer/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/emannuel/public_html/geoprospect.com.br/_user/panel/funcao_usuario.php on line 47
+[03-Mar-2016 00:58:31 America/Sao_Paulo] PHP Fatal error:  Class 'SMTP' not found in /home/emannuel/public_html/geoprospect.com.br/_user/panel/phpmailer/class.phpmailer.php on line 1439
+[03-Mar-2016 01:06:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}' in /home/emannuel/public_html/geoprospect.com.br/_user/recuperar.php on line 11
