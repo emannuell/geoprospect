@@ -1,8 +1,17 @@
 <?php
 header('Content-Type: text/html; charset=utf-8',true);
-require_once 'config.php';
+require_once '../../conect.php';
 
-$chave = '';
+/*
+$db = Database::getInstance();
+$mysqli = $db->getConnection();
+
+*/
+
+$db = Database::getInstance();
+$mysqli = $db->getConnection();
+
+$chave = 'AIzaSyDErUb9c8c0z3tMO-kamCC_ZTZ8AcHCtbY';
 
 function buscaCidade($cidade, $local){
 	if (!empty($cidade)) {
@@ -18,14 +27,22 @@ function buscaCidade($cidade, $local){
 	}
 }
 
-function buscaLocais($latitude, $longitude, $raio, palavra){
+function buscaLocais($latitude, $longitude, $raio, $palavra){
+  global $chave;
 	$url = "https://maps.googleapis.com/maps/api/place/radarsearch/json?location=".$latitude.",".$longitude."&radius=".$raio."&keyword=".$palavra."&key=".$chave;
+
 	$string = file_get_contents($url);
 	$json = json_decode($string);
 	$resultado = $json->results;
+
+	echo count($resultado);
+	exit;
+
+        return $resultado;
 }
 
 function placesSearch($usuario_id, $cidade, $local, $raio, $palavra){
+  global $chave, $mysqli;
 	$cidade = strtolower(str_replace(" ","",$cidade));
 	$local = strtolower(str_replace(" ","",$local));
 	$raio = str_replace(" ","",$raio);
@@ -34,13 +51,22 @@ function placesSearch($usuario_id, $cidade, $local, $raio, $palavra){
 	$i = 0;
 	if (!empty($cidade)){
 		$latLng = buscaCidade($cidade, $local);
-		$resultado = buscaLocais($latLng[0], $latLng[1]);
+		$resultado = buscaLocais($latLng[0], $latLng[1], $raio, $palavra);
 
 		foreach ($resultado as $resultados) {
 			$placeid = $resultados->place_id;
-			$verid = mysql_num_rows(mysql_query("SELECT place_id FROM places WHERE place_id = $placeid"));
-			if($verif == 0){
+			$sql = "SELECT place_id FROM places WHERE place_id = $placeid";
+
+			$verid = $mysqli->query($sql);
+
+			print_r( $verid );
+
+			if($verid == 0){
 				$mapsdetails = "https://maps.googleapis.com/maps/api/place/details/json?placeid=".$placeid."&key=".$chave;
+
+				echo $mapsdetails;
+				exit;
+
 				$string = file_get_contents($mapsdetails);
 				$json = json_decode($string);
 				$detalhes = $json->result;
@@ -51,7 +77,12 @@ function placesSearch($usuario_id, $cidade, $local, $raio, $palavra){
 				$endereco = $detalhes->formatted_address;
 				$telefone = $detalhes->formatted_phone_number;
 				$gplus = $detalhes->url;
-				$website = $detalhes->website;
+
+				print_r( $detalhes );
+				exit;
+
+				if ($detalhes->website)
+					$website = $detalhes->website;
 
 				foreach($detalhes->address_components as $address_componenets) {
 					if($address_componenets->types[0] == "locality") {
@@ -82,7 +113,7 @@ function placesSearch($usuario_id, $cidade, $local, $raio, $palavra){
 						$cep = $address_componenets->long_name;
 					}
 				}
-				mysql_query("INSERT INTO CONSULTAS (id, place_id, nome, endereco, lat, lng, telefone, url, website, rua, ruanumero, cidade, estado, bairro, cep, pais, date_add) 
+				mysql_query("INSERT INTO CONSULTAS (id, place_id, nome, endereco, lat, lng, telefone, url, website, rua, ruanumero, cidade, estado, bairro, cep, pais, date_add)
 				values (null,'$placeid','$nome','$endereco','$lat','$lng','$telefone','$gplus','$website','$rua','$ruanumero','$locality','$estado','$bairro','$cep','$pais', timestamp)");
 				$i++;
 				//Criar relação registro / usuario
@@ -94,4 +125,5 @@ function placesSearch($usuario_id, $cidade, $local, $raio, $palavra){
 		return $i;
 	}
 }
-?>
+
+placesSearch(1, 'pato branco', 'paraná', 5000, 'mecanica');
