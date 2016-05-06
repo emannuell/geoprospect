@@ -23,35 +23,37 @@
     <div class="centraliza">
       <?php
       include ("panel/funcao_usuario.php");
-      if ($_GET['login'] == '0') { ?>
+      if (isset($_GET['login'])){
+        if ($_GET['login'] == '0') { ?>
         <div class="alert alert-warning" role="alert">Login ou senha incorreto.</div>
         <?php }
-      if($_GET['login'] == '1'){ ?>
+        if($_GET['login'] == '1'){ ?>
         <div class="alert alert-danger" role="alert">Logout, insira um usuario e senha.</div>
         <?php
       } 
-      if(usuarioLogado()){
-        header("Location: pesquisa.php");
-      }
-        ?>
-      <div class="panel panel-default">
-        <div class="panel-heading">Painel de controle</div>
-        <div class="panel-body">
-          <form class="form-group" action="login.php" method="post">
-            <p>
-              <input type="email" class="form-largo input-lg" id="email" name="email" placeholder="E-mail" required>
-            </p>
-            <p>
-              <input type="password" class="form-largo input-lg" id="senha" name="senha" placeholder="Senha" required>
-            </p>
-            <p>
-              <button type="submit" class="btn btn-warning btn-block btn-lg">Entrar</button>
-            </p>
-          </form>
-          <a href="recuperar.php"> Esqueceu a senha?</a>
-        </div>
+    }
+    if(usuarioLogado()){
+      header("Location: pesquisa.php");
+    }
+    ?>
+    <div class="panel panel-default">
+      <div class="panel-heading">Painel de controle</div>
+      <div class="panel-body">
+        <form class="form-group" action="login.php" method="post">
+          <p>
+            <input type="email" class="form-largo input-lg" id="email" name="email" placeholder="E-mail" required>
+          </p>
+          <p>
+            <input type="password" class="form-largo input-lg" id="senha" name="senha" placeholder="Senha" required>
+          </p>
+          <p>
+            <button type="submit" class="btn btn-warning btn-block btn-lg">Entrar</button>
+          </p>
+        </form>
+        <a href="recuperar.php"> Esqueceu a senha?</a>
       </div>
     </div>
   </div>
+</div>
 </body>
 </html>

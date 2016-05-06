@@ -12,7 +12,7 @@ $result = $mysqli->query($sql_query);
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Uma ferramenta online que auxília na prospecção de clientes, ajudando a equipe de vendas no processo de identificação dos clientes potenciais para a gestão de seus negócios.">
+  <meta name="description" content="Ferramenta online que auxília na prospecção de clientes, ajudando a equipe de vendas no processo de identificação dos clientes potenciais para a gestão de seus negócios.">
   <meta name="author" content="GeoProspect">
   <title>GeoProspect - Cadastre-se agora!</title>
   <link href="assets/bootstrap.css" rel="stylesheet">

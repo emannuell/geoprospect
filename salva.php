@@ -22,7 +22,7 @@ if($conta > 0){
 	header("Location: cadastro.php?status=1");
 }else{
 	if($result = $mysqli->query($sql_query)){
-		header("Location: /_user");
+		header("Location: _user/");
 	}else{
 		echo"Deu Merda";
 	}
