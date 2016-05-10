@@ -32,57 +32,53 @@ if(usuarioLogado()){
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
         <style type="text/css">
-      html, body { height: 100%; margin: 0; padding: 0; }
-      #map { height: 100%; }
-    </style>
-    </head>
-    <body>
-        <div id="wrapper">
-            <!-- Topo de pagina e menu -->
-            <?php include ("menu.html"); ?>
+          html, body { height: 100%; margin: 0; padding: 0; }
+          #map { height: 100%; }
+      </style>
+  </head>
+  <body>
+    <div id="wrapper">
+        <!-- Topo de pagina e menu -->
+        <?php include ("menu.html"); ?>
 
-            <div id="page-wrapper">
+        <div id="page-wrapper">
+            <div id="main" class="container-fluid">
+             <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        Dashboard
+                        <small>visao geral</small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li class="active">
+                            <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-list"></i> Lista de empresas
+                        </li>
+                    </ol>
 
-                <div class="container-fluid">
-
-                    <!-- Page Heading -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="page-header">
-                                Dashboard
-                                <small>visao geral</small>
-                            </h1>
-                            <ol class="breadcrumb">
-                                <li class="active">
-                                    <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
-                                </li>
-                            </ol>
-                            <!-- Avisos aqui! -->
-                            <div class="col-lg-12">
-                                <div class="alert alert-info alert-dismissable">
-                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                    <i class="fa fa-info-circle"></i>  Aqui você buscar por clientes eles serao <strong>automaticamente</strong> inseridos na lista de potenciais clientes.
-                                </div>
-                            </div>
-                            <!-- inicio dos indicadores -->
-                            <div class="col-lg-12">
-                                 <div id="map"></div>
-                            </div>
-                            <!-- /.row -->
+                    <!-- Avisos aqui! -->
+                    <div class="col-lg-12">
+                        <div class="alert alert-info alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <i class="fa fa-info-circle"></i>  Acompanhe a evoluçao dos potenciais clientes no <strong>funil de vendas</strong>, e nao perca nenhuma oportunidade!
                         </div>
                     </div>
-                    <!-- /.row -->
                 </div>
-                <!-- /.container-fluid -->
-            </div>
-            <!-- /#page-wrapper -->
+            </div> 
+            <!-- /.row -->
         </div>
-        <!-- /#wrapper -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
-    </html>
-    <?php
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+<?php
 }else{
 	verificaUsuario();
 }

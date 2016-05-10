@@ -7,7 +7,7 @@ if(usuarioLogado()){
 	$usuario = retornaUsuario();
 	$id = $usuario[0];
 
-	$sql = "SELECT usuarios_empresas.empresas_id, empresas.id, empresas.nome, empresas.telefone from usuarios_empresas inner join empresas on usuarios_empresas.empresas_id = empresas.id where usuarios_empresas.usuarios_id = 18";
+	$sql = "SELECT usuarios_empresas.empresas_id, empresas.id, empresas.nome, empresas.telefone from usuarios_empresas inner join empresas on usuarios_empresas.empresas_id = empresas.id where usuarios_empresas.usuarios_id = '$id'";
 	$db = Database::getInstance();
 	$mysqli = $db->getConnection();
 	$result = $mysqli->query($sql);
